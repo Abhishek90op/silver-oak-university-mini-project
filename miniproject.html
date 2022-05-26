@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Demo Background Video</title>
+		<style type="text/css">
+				.fullscreen_bg 
+				{
+					position:fixed;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					overflow:hidden;		
+                                        z-index-1;
+					background-size:cover;
+				}
+
+				.fullscreen_bg_videos 
+				{
+					position:fixed;
+					width: auto;
+					height: auto;
+					min-width: 100%;
+					min-height: 100%;
+				}
+				h2{background-color:gray; color:#e669b2;opacity:0;}
+                h2:hover{transform: scale(1.5,1.5);text-align: center;background-color: azure;opacity:0.9;}
+
+		</style>
+    </head>
+    <body>
+        
+		<div class="fullscreen_bg">
+            <video src="video.mp4" controls autoplay loop   class="fullscreen_bg_videos"></video>
+        </div>
+		
+		<h2 >Hello</h2>
+
+		<h2>abhishek</h2>
+		<h2>i'm web developer</h2>
+		
+    </body>
+</html>
